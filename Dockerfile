@@ -1,5 +1,7 @@
 FROM pabrahamsson/rpi-php
 
+MAINTAINER Petter Abrahamsson <petter@jebus.nu>
+
 RUN apk update && apk add bash sed
 
 RUN { \
